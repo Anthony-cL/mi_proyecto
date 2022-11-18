@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1320px;
+}
+
+p {
+  font-family: roboto, sans-serif;
+}
+
+/* Header */
+
+header {
+  background-color: #4289ac;
+  height: 5rem;
+  position: sticky;
+  top: 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-direction: row;
+  padding-top: 1.4rem;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.header__link {
+  margin-left: 1.4rem;
+  list-style: none;
+}
+
+.header__link a {
+  margin-left: 1rem;
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+.header__link a:hover {
+  color: black;
+}
+/* Primera Seccion */
+
+.section1 {
+  grid-area: 2 / 1 / 3 / 3;
+  max-width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/fondo_inicio.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+}
+
+.section1 h1 {
+  color: white;
+  font-size: 60px;
+  font-family: roboto, sans-serif;
+  overflow: auto;
+}
+
+.section1 p {
+  color: white;
+  font-size: 21px;
+  padding-left: 3rem;
+}
+
+.section1 input {
+  background-color: #3c7aaa;
+  margin: 1rem;
+  padding: 20px 50px 20px 50px;
+  color: white;
+  border-color: black;
+  font-family: roboto, sans-serif;
+}
+.section1 input:hover {
+  color: black;
+}
+
+/* Segunda Seccion */
+
+.section2 {
+  grid-area: 2 / 1 / 3 / 3;
+  padding-top: 30px;
+  display: flex;
+  background-color: #f9f9f9;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.section2__boxes {
+  margin-top: 2rem;
+  flex-direction: column;
+  text-align: center;
+  border: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+.section2 h3 {
+  font-size: 25px;
+  font-family: roboto, sans-serif;
+}
+
+.section2 p {
+  font-size: 16px;
+}
+
+.section2__p {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  text-align: center;
+}
+
+.section2__image img {
+  width: 125px;
+  padding-bottom: 1.3rem;
+}
+
+/* seccion 3 */
+
+.section3 {
+  grid-area: 2 / 1 / 3 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  font-size: 24px;
+  font-family: roboto, sans-serif;
+}
+
+.section3__box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.section3__boxes {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+/* footer */
+
+footer {
+  grid-area: 3 / 1 / 4 / 3;
+  background-color: black;
+  width: 100%;
+  height: 9rem;
+  border-top: solid #3c7aaa 5px;
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+}
+
+.footer__box p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.coderhouse {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer__img {
+  width: 35px;
+  margin-left: 1rem;
+}
+
+/* Pagina Medicina */
+
+.medicina__box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.medicina__title h3 {
+  font-family: roboto;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.medicina__text p {
+  color: black;
+  width: 70%;
+  padding-bottom: 1rem;
+}
+
+.medicina__img img {
+  width: 500px;
+  border: 5px solid #4289ac;
+  margin-top: 8rem;
+}
+
+/* Pagina Peluqueria */
+
+.peluqueria__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.peluqueria__img img {
+  margin-top: 4.5rem;
+  width: 500px;
+  margin-bottom: 10rem;
+  border: 5px solid #4289ac;
+}
+
+.peluqueria__text {
+  margin-top: 4.5rem;
+  padding-left: 3.5rem;
+}
+
+.peluqueria__text h3 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  font-family: roboto, sans-serif;
+}
+
+.peluqueria__p {
+  padding-bottom: 1.2rem;
+  font-size: 18px;
+}
+
+/* Quienes Somos */
+
+.quienesSomos__box {
+  display: flex;
+  margin-top: 5.5rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.quienesSomos__title {
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-size: 25px;
+  padding-bottom: 1.5rem;
+}
+
+.quienesSomos__img img {
+  width: 500px;
+  padding-right: 0.5rem;
+  border: solid 2px black;
+  margin-bottom: 4rem;
+}
+
+.quienesSomos__info {
+  margin-top: 3.5rem;
+  margin-left: 3rem;
+}
+
+.quienesSomos__subTitle {
+  font-size: 18;
+  margin: 1rem;
+  font-family: roboto, sans-serif;
+}
+
+/* Pagina Contacto */
+
+.container__Form {
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  justify-content: space-around;
+}
+
+fieldset {
+  border: #4289ac solid 0.3rem;
+}
+
+legend {
+  font-size: 18px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+form {
+  width: 35%;
+}
+.formulario_input {
+  width: 50%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 3.5rem;
+}
+
+.formulario_p {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+}
+
+.formulario_option {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  font-family: roboto, sans-serif;
+}
+
+.contacto__title {
+  font-size: 30px;
+  font-family: roboto, sans-serif;
+}
+
+.contacto__subTitle {
+  width: 50%;
+  padding-top: 1.5rem;
+}
+
+.contacto__subTitle p {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.contacto__map {
+  width: 30rem;
+  height: 28rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+  .header__container {
+    display: inline-block;
+    margin-left: 12%;
+  }
+
+  header {
+    height: 10rem;
+    position: sticky;
+  }
+  .header__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header__link {
+    margin: 1px;
+  }
+  .header__logo img {
+    margin-left: 5vh;
+  }
+
+  .section1 {
+    background-repeat: no-repeat;
+    background-position: 70%;
+    height: 75vh;
+  }
+
+  .section1 h1 {
+    font-size: 2.5rem;
+    padding-bottom: 12px;
+  }
+
+  .section1 p {
+    padding-bottom: 12px;
+  }
+
+  .section2 {
+    flex-wrap: wrap;
+    margin: auto 10% auto 10%;
+  }
+
+  .section3__box {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    height: 300px;
+  }
+  .footer__box {
+    flex-direction: column;
+  }
+
+  .footer__text p {
+    justify-self: center;
+  }
+  .footer__rrss {
+    margin-top: 3rem;
+    align-self: center;
+  }
+}
